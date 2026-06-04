@@ -75,15 +75,12 @@ function attachAddToCartListeners() {
   });
 }
 
-// Render books on the books.html page (if container exists)
+// Render books on the books.html 
 if (document.getElementById("books-container")) {
   renderBooks(books);
 }
 
-// Attach listeners for any existing add-to-cart buttons (e.g., on homepage)
-// document.addEventListener("DOMContentLoaded", () => {
-//   attachAddToCartListeners();
-// });
+
 
 const toggleBtn = document.getElementById("theme-toggle");
 

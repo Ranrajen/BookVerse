@@ -4,13 +4,7 @@
   if (!tbody || !totalEl) return;
 
   function renderCart() {
-    // if (cart.length === 0) {
-    //   tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:40px;">
-    //     Your cart is empty. <a href="books.html">Browse books</a>
-    //   </td></tr>`;
-    //   totalEl.textContent = '₹0';
-    //   return;
-    // }
+
     //updated if block after summary
     if (cart.length === 0) {
       tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:40px;">
@@ -49,16 +43,7 @@
       )
       .join('');
 
-    // const total = cart.reduce(
-    //   (sum, item) => sum + item.price * item.quantity,
-    //   0
-    // );
-    // totalEl.textContent = `₹${total}`;
-
-    // attachCartEvents();
-
-    // updated the order summary
-
+    
     const total = cart.reduce(
       (sum, item) => sum + item.price * item.quantity,
       0
