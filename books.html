@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Books – BookVerse</title>
+    <meta
+      name="description"
+      content="Browse 2000+ books – fiction, biographies, business and more."
+    />
+    <link rel="icon" href="assests/image/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/books.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1>📚 BookVerse</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" id="cart-link"
+          >🛒 Cart (<span id="cart-count">0</span>)</a
+        >
+        <a href="login.html">Login</a>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <h2>All Books</h2>
+        <p>Browse our complete collection of 2,000+ books</p>
+      </section>
+
+      <section class="filters">
+        <div class="search-box">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search books, authors, or genres..."
+          />
+          <button type="button">Search</button>
+        </div>
+        <div class="filter-controls">
+          <label for="category-filter">Category:</label>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="fiction">Fiction</option>
+            <option value="education">Education</option>
+            <option value="biography">Biographies</option>
+            <option value="business">Business</option>
+            <option value="self-help">Self-Help</option>
+            <option value="history">History</option>
+          </select>
+          <label for="sort">Sort by:</label>
+          <select id="sort">
+            <option value="default">Default</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="rating">Rating</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="books-grid" id="books-container">
+        <!-- Dynamically populated by JavaScript -->
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>📚 BookVerse</h4>
+          <p>India's favorite online bookstore.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Biographies</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+        </div>
+    <div class="footer-column">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/rajen.rangari/">📚 Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ranrajen">📚 Instagram</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/rajen-rangari"
+                >📚 LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BookVerse. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/books.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>
