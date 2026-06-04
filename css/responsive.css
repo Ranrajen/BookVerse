@@ -1,0 +1,182 @@
+
+@media (max-width: 992px){
+
+    header{
+        padding:15px 20px;
+    }
+
+    .book-detail{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .book-image{
+        max-width:400px;
+        margin:auto;
+    }
+
+    .hero h2{
+        font-size:3rem;
+    }
+
+    .featured h2,
+    .categories h2,
+    .page-header h2{
+        font-size:2rem;
+    }
+}
+
+
+
+@media (max-width:768px){
+
+    main{
+        padding:20px 15px;
+    }
+
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    header h1{
+        font-size:1.8rem;
+    }
+
+    nav{
+        justify-content:center;
+    }
+
+    nav a{
+        padding:8px 12px;
+        font-size:.95rem;
+    }
+
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero h2{
+        font-size:2.2rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+
+    .book-grid,
+    .books-grid{
+        grid-template-columns:1fr;
+    }
+
+    .book-card{
+        max-width:420px;
+        margin:auto;
+    }
+
+
+    .search-box{
+        flex-direction:column;
+    }
+
+    .search-box button{
+        width:100%;
+    }
+
+    .filter-controls{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .filter-controls select{
+        width:100%;
+    }
+
+
+    .book-info h2{
+        font-size:2rem;
+    }
+
+    .book-info .price{
+        font-size:1.6rem;
+    }
+
+    .book-details{
+        grid-template-columns:1fr;
+        gap:5px;
+    }
+
+    .purchase-actions{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .purchase-actions input{
+        width:100%;
+    }
+
+
+    .form-section{
+        padding:25px;
+    }
+
+
+    .footer-content{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+}
+
+
+@media (max-width:480px){
+
+    header{
+        padding:15px;
+    }
+
+    header h1{
+        font-size:1.6rem;
+    }
+
+    .hero h2{
+        font-size:1.8rem;
+    }
+
+    .hero p{
+        font-size:.95rem;
+    }
+
+    .page-header{
+        padding:30px 15px;
+    }
+
+    .page-header h2{
+        font-size:1.8rem;
+    }
+
+    .featured h2,
+    .categories h2{
+        font-size:1.8rem;
+    }
+
+    .book-card img{
+        height:280px;
+    }
+
+    .book-info h2{
+        font-size:1.7rem;
+    }
+
+    .form-section{
+        padding:20px;
+        border-radius:16px;
+    }
+
+    .notification{
+        right:10px;
+        left:10px;
+        top:80px;
+    }
+}
