@@ -3,45 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- SEO Meta Tags -->
-    <title>BookVerse - Discover Your Next Great Read</title>
-
+    <title>BookVerse – India's Favorite Online Bookstore</title>
     <meta
       name="description"
-      content="Explore thousands of books across fiction, education, business, self-help, and more. Find your next great read at BookVerse."
+      content="Buy books online at BookVerse. Indian authors, bestsellers, fiction, education books. Free delivery across India."
     />
-
     <meta
       name="keywords"
-      content="books, online bookstore, fiction books, educational books, bookverse, buy books online"
+      content="books, online bookstore, indian authors, buy books online"
     />
-
-    <meta name="author" content="Your Name" />
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="BookVerse - Online Bookstore" />
+    <meta property="og:title" content="BookVerse – Online Bookstore" />
     <meta
       property="og:description"
-      content="Discover, explore, and shop books online with BookVerse."
+      content="India's favorite place to buy books online"
     />
-
-    <meta property="og:image" content="assets/images/og-banner.jpg" />
-
-    <meta property="og:type" content="website" />
-
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!-- Favicon -->
-    <link rel="icon" href="./assets/images/favicon.ico" />
+    <meta property="og:image" content="assests/image/banner1.jpg" />
+    <link rel="icon" href="assests/image/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <h1>Here wwe are building the bokk Verse Project</h1>
+    <header>
+      <h1>📚 BookVerse</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" id="cart-link"
+          >🛒 Cart (<span id="cart-count">0</span>)</a
+        >
+        <a href="login.html">Login</a>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2 id="hero-title">Welcome to BookVerse</h2>
+
+        <p id="hero-subtitle">Discover thousands of books.</p>
+
+        <a href="books.html" class="btn"> Explore Books </a>
+      </section>
+
+      <section class="featured">
+        <h2>Featured Books</h2>
+        <div class="book-grid">
+          <article class="book-card">
+            <img src="assests/image/Wings of Fire.jpg" alt="Wings of Fire" />
+            <h3>Wings of Fire</h3>
+            <p class="author">A.P.J. Abdul Kalam</p>
+            <p class="price">₹299</p>
+            <button class="add-to-cart" data-id="1">Add to Cart</button>
+          </article>
+          <article class="book-card">
+            <img src="assests/image/The Alchemist.jpg" alt="The Alchemist" />
+            <h3>The Alchemist</h3>
+            <p class="author">Paulo Coelho</p>
+            <p class="price">₹349</p>
+            <button class="add-to-cart" data-id="2">Add to Cart</button>
+          </article>
+          <article class="book-card">
+            <img src="assests/image/Atomic Habits.jpg" alt="Atomic Habits" />
+            <h3>Atomic Habits</h3>
+            <p class="author">James Clear</p>
+            <p class="price">₹499</p>
+            <button class="add-to-cart" data-id="3">Add to Cart</button>
+          </article>
+          <article class="book-card">
+            <img src="assests/image/Sapiens.jpg" alt="Sapiens" />
+            <h3>Sapiens</h3>
+            <p class="author">Yuval Noah Harari</p>
+            <p class="price">₹599</p>
+            <button class="add-to-cart" data-id="4">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="categories">
+        <h2>Browse by Category</h2>
+        <div class="category-list-container">
+          <div class="category">
+            <h3>📚 Fiction</h3>
+            <p>Novels, short stories, fantasy</p>
+          </div>
+          <div class="category">
+            <h3>📚 Education</h3>
+            <p>Textbooks, study guides</p>
+          </div>
+          <div class="category">
+            <h3>📚 Biographies</h3>
+            <p>Life stories of remarkable people</p>
+          </div>
+          <div class="category">
+            <h3>📚 Business</h3>
+            <p>Entrepreneurship, leadership</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>📚 BookVerse</h4>
+          <p>India's favorite online bookstore.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Biographies</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/rajen.rangari/">📚 Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ranrajen">📚 Instagram</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/rajen-rangari"
+                >📚 LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BookVerse. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/books.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

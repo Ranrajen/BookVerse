@@ -1,76 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login – BookHive</title>
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/form.css">
-  <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-  <header>
-    <h1>📚 BookHive</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="books.html">Books</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="cart.html" id="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a>
-      <a href="login.html">Login</a>
-      <button id="theme-toggle" type="button">
-      🌙
-  </button>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login – BookVerse</title>
+    <link rel="icon" href="assests/image/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1>📚 BookVerse</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" id="cart-link"
+          >🛒 Cart (<span id="cart-count">0</span>)</a
+        >
+        <a href="login.html">Login</a>
+        <button id="theme-toggle" type="button">🌙</button>
+      </nav>
+    </header>
 
-  <main>
-    <section class="form-section">
-      <h2>Welcome Back!</h2>
-      <p>Login to your BookHive account</p>
-      <form action="#" method="POST" class="login-form">
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required>
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-         <div class="password-wrapper">
-    <input
-        type="password"
-        id="password"
-        name="password"
-        required
-    >
+    <main>
+      <section class="form-section">
+        <h2>Welcome Back!</h2>
+        <p>Login to your BookVerse account</p>
+        <form action="#" method="POST" class="login-form">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="password-wrapper">
+              <input type="password" id="password" name="password" required />
 
-    <button
-        type="button"
-        id="toggle-password"
-    >
-        👁️
-    </button>
-</div>
-        </div>
-        <div class="form-group checkbox-group">
-          <input type="checkbox" id="remember" name="remember">
-          <label for="remember">Remember me</label>
-        </div>
-        <button type="submit" class="btn-primary">Login</button>
-        <p class="form-link"><a href="#">Forgot password?</a></p>
-        <p class="form-link">Don't have an account? <a href="signup.html">Sign up here</a></p>
-      </form>
-    </section>
-  </main>
+              <button type="button" id="toggle-password">👁️</button>
+            </div>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+          <button type="submit" class="btn-primary">Login</button>
+          <p class="form-link"><a href="#">Forgot password?</a></p>
+          <p class="form-link">
+            Don't have an account? <a href="signup.html">Sign up here</a>
+          </p>
+        </form>
+      </section>
+    </main>
 
-  <footer>
-    <div class="footer-bottom">
-      <p>&copy; 2026 BookHive. All rights reserved.</p>
-    </div>
-  </footer>
+    <footer>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BookVerse. All rights reserved.</p>
+      </div>
+    </footer>
 
-  <script src="js/cart.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/login.js"></script>
-</body>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
 </html>
