@@ -31,7 +31,7 @@ BookHive/
 │ └── responsive.css  
 │
 └── js/
-├── main.js  
+ ├── main.js  
  ├── books.js  
  ├── cart.js  
  ├── cart-page.js  
@@ -43,7 +43,7 @@ BookHive/
 Local Installation & Deployment
 
 1. Download the Repository Files
-2. Bash
+2. git Bash
 3. git clone https://github.com/Ranrajen/BookVerse.git
 4. Open Project Folder Launch your preferred code editor (such as Visual Studio Code) and select the main root directory file path.
 5. Execute the Application Open index.html directly inside any desktop browser profile, or alternatively right-click inside your editor workspace window and choose Open with Live Server to launch a local development connection.
